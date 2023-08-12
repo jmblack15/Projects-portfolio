@@ -1,13 +1,17 @@
 .main {
   min-height: 100vh;
   min-width: 100vw;
-  padding: 5%;
 }
 
-.container_files {
+/* .container_files {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70px;
+} */
+
+.container_files div {
+  display: flex;
+  flex-direction: column;
   gap: 10px;
+  width: 70px;
 }

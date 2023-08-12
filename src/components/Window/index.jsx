@@ -1,11 +1,12 @@
+import Image from "next/image"
+import styles from "./window.module.css";
+
 const Window = ({ children }) => {
   return (
-    <section>
-      <div className='window_bar'>
-        {/* <img src="" alt="" /> */}
-        <div>
-          <div>-</div>
-          <div>4</div>
+    <section className={styles.window}>
+      <div className={styles.window_bar}>
+        <div></div>
+        <div className={styles.bar_controls}>
           <div>X</div>
         </div>
       </div>

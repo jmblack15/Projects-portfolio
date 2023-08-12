@@ -1,0 +1,54 @@
+.window {
+  position: absolute;
+  background-color: #D4D0C8;
+  width: 80vw;
+  height: 90vh;
+  max-width: 900px;
+  max-height: 800px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 1px solid black;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.window_bar {
+  width: 100%;
+  height: 30px;
+  background: rgb(2, 0, 36);
+  background: -moz-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(13, 13, 181, 1) 20%, rgba(170, 241, 255, 1) 96%);
+  background: -webkit-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(13, 13, 181, 1) 20%, rgba(170, 241, 255, 1) 96%);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(13, 13, 181, 1) 20%, rgba(170, 241, 255, 1) 96%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#aaf1ff", GradientType=1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bar_controls {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 5px;
+}
+
+.bar_controls div {
+  background-color: #D4D0C8;
+  height: 87%;
+  width: 30px;
+  display: grid;
+  place-content: center;
+  color: black;
+  font-size: 18px;
+  font-weight: bolder;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  margin-right: 3px;
+  cursor: pointer;
+}
