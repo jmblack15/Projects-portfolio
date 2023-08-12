@@ -31,6 +31,8 @@ html {
 body {
   margin: 0;
   background-color: #376EA7;
+  color: white;
+  font-weight: 500;
 }
 
 /**
